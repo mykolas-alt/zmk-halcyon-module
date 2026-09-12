@@ -15,3 +15,7 @@ config SHIELD_MOD_DISPLAY_EPAPER_MOUNTAIN
 config SHIELD_MOD_DISPLAY_EPAPER_CITYSCAPE
     def_bool $(shields_list_contains,mod_display_epaper_cityscape)
     select SHIELD_MOD_DISPLAY_EPAPER
+
+config SHIELD_MOD_DISPLAY_EPAPER_BINGUS
+    def_bool $(shields_list_contains,mod_display_epaper_bingus)
+    select SHIELD_MOD_DISPLAY_EPAPER

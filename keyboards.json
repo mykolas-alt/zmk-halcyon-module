@@ -68,6 +68,11 @@
             "type": "epaper_display"
         },
         {
+            "name": "mod_display_epaper_bingus",
+            "short_name": "epaper",
+            "type": "epaper_display"
+        },
+        {
             "name": "mod_cirque_central",
             "short_name": "",
             "type": "pointing"
